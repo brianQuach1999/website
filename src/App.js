@@ -25,7 +25,7 @@ class App extends Component {
   }
 
   getResumeData() {
-    fetch("/resumeData.json")
+    fetch("./resumeData.json")
       .then(response => response.json())
       .then(json => this.setState({resumeData: json}))
       .catch(err=> console.log(err))
