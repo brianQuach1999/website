@@ -78,4 +78,6 @@ Textbook Exchange Image and other images generated from https://text2image.com/e
 Deploy: make changes then ->yarn run deploy
 video: https://www.youtube.com/watch?v=ctLFWAanxcI&ab_channel=ProgrammingLiftoff
 
-Website is at: https://brianquach1999.github.io/website/#home
+Website is at: https://brianquach1999.github.io/website/
+
+Not going to fix the service-worker bug. It just helps website load faster in prod. Can do it later. 
