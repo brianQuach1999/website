@@ -1,0 +1,148 @@
+{
+  "main": {
+    "name": "Brian Quach",
+    "occupation": "Software Engineer",
+    "description": "People describe me as hardworking, curious, motivated. I strive for success in every situation",
+    "image": "profilepic.jpg",
+    "bio": "Hey I'm Brian! I studied Computer Science at the University of Toronto. I have experience in web development, android development, and scalable computing.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "brian.quach6@gmail.com",
+    "phone": "437-989-3751",
+    "address": {
+      "city": "Seattle",
+      "state": "Washington"
+    },
+    "website": "http://www.brianquachdev.com",
+    "resumedownload": "http://brianquachdev.com/resume",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/brian-quach-2018/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/brianQuach1999",
+        "className": "fa fa-github"
+      },
+      {
+        "name": "devpost",
+        "url": "https://devpost.com/brianquach99?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav",
+        "className": "fa fa-shield"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+    "education": [
+      {
+        "school": "University of Toronto",
+        "degree": "Computer Science",
+        "graduated": "May 2021",
+        "description": "I specialized in Computer Science focusing in Scalable Computing, Operating Systems, and Web Development. "
+      }
+    ],
+    "work": [
+      {
+        "company": "Doordash",
+        "title": "Software Engineer I",
+        "years": "May 2021 - Present",
+        "description": "Soon to find out! :)"
+      },
+      {
+        "company": "Amazon",
+        "title": "Software Engineer Intern",
+        "years": "May 2020 - August 2020",
+        "description": "Created a website related to fulfillment operations."
+      },
+      {
+        "company": "Google",
+        "title": "Software Engineer Intern",
+        "years": "February 2020 - May 2020",
+        "description": "Added features to the Google Search App on Android devices."
+      },
+      {
+        "company": "Animo Ai",
+        "title": "Software Engineer Intern",
+        "years": "January 2020 - February 2020",
+        "description": "Created OAuth 2.0 Authentication and Account management."
+      },
+      {
+        "company": "Soti",
+        "title": "Software Engineer Intern",
+        "years": "May 2019 - August 2019",
+        "description": "Created Oauth 2.0 Authentication. "
+      }
+    ],
+    "skills": [
+      {
+        "name": "Git",
+        "level": "60%"
+      },
+      {
+        "name": "Illustrator",
+        "level": "55%"
+      },
+      {
+        "name": "ReactJs",
+        "level": "50%"
+      },
+      {
+        "name": "CSS",
+        "level": "90%"
+      },
+      {
+        "name": "HTML5",
+        "level": "80%"
+      },
+      {
+        "name": "VueJs",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "TextBook Xchange",
+        "category": "CSC309 Group Assignment",
+        "image": "textbook.png",
+        "url": "http://textbook-exchangee.herokuapp.com/"
+      },
+      {
+        "title": "CSC458 Video Assignment",
+        "image": "bgp.png",
+        "url": "https://youtu.be/lC7jsfhJp9M"
+      },
+      {
+        "title": "CSC458 Video Assignment 2",
+        "image": "tcp.png",
+        "url": "https://youtu.be/BdlVHlK9jHA"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Within 2 weeks, Brian went from not knowing how the OAuth 2.0 Authentication System works to teaching our team how to build it into our website. He is driven and curious. He would be an asset to any team.",
+        "user": "Samin Khan, CTO of Animo AI"
+      },
+      {
+        "text": "Working with Brian is always a pleasure. He helped me prepare for my interviews at Amazon",
+        "user": "Jimmy Tan, Software Engineer at Amazon"
+      },
+      {
+        "text": "Brian is an exceptional teammate whose attention to detail and problem solving make him a valued member on any team. Whenever I have worked with him, he's ensured that we always put out our best work. Brian was also a great help in the interview process, where his prior experiences interviewing at top companies provided me the skills and confidence I needed to land a position at Amazon.",
+        "user": "Saim Ibrahim, Software Engineer at Amazon"
+      },
+      {
+        "text": "Brian has been both a confidant and a mentor to me all throughout my university life. The advice he gave me directly lead to my post-secondary success.",
+        "user": "Arjun Pandher, Student at University of Toronto"
+      }
+    ]
+  }
+}
