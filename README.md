@@ -74,3 +74,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 Got the template from https://github.com/tbakerx/react-resume-template. I took out components by commenting them out in App.js. I edited resumeData.json with my information. 
 
 Textbook Exchange Image and other images generated from https://text2image.com/en/ using their default settings. Arial, 12pt font, width and height 150, etc.
+
+Deploy: make changes then ->yarn run deploy
+video: https://www.youtube.com/watch?v=ctLFWAanxcI&ab_channel=ProgrammingLiftoff
+
+Website is at: https://brianquach1999.github.io/website/#home
