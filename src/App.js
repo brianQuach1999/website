@@ -12,7 +12,7 @@ import Portfolio from './Components/Portfolio';
 
 class App extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       foo: 'bar',
@@ -24,35 +24,39 @@ class App extends Component {
 
   }
 
-  getResumeData(){
-    $.ajax({
-      url:'/website/resumeData.json',
-      dataType:'json',
-      cache: false,
-      success: function(data){
-        this.setState({resumeData: data});
-      }.bind(this),
-      error: function(xhr, status, err){
-        console.log(err);
-        alert(err);
-      }
-    });
+  getResumeData() {
+    fetch("/resumeData.json")
+      .then(response => response.json())
+      .then(json => this.setState({resumeData: json}))
+      .catch(err=> console.log(err))
+    // $.ajax({
+    //   url:'/website/resumeData.json',
+    //   dataType:'json',
+    //   cache: false,
+    //   success: function(data){
+    //     this.setState({resumeData: data});
+    //   }.bind(this),
+    //   error: function(xhr, status, err){
+    //     console.log(err);
+    //     alert(err);
+    //   }
+    // });
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.getResumeData();
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
+        <Header data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} />
         {/* <Resume data={this.state.resumeData.resume}/> */}
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Testimonials data={this.state.resumeData.testimonials}/>
+        <Portfolio data={this.state.resumeData.portfolio} />
+        <Testimonials data={this.state.resumeData.testimonials} />
         {/* <Contact data={this.state.resumeData.main}/> */}
-        <Footer data={this.state.resumeData.main}/>
+        <Footer data={this.state.resumeData.main} />
       </div>
     );
   }
