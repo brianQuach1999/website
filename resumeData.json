@@ -128,11 +128,14 @@
   "testimonials": {
     "testimonials": [
       {
+        "text": "Working with Brian was a delight since he was able to pick up new technologies and tools extremely quickly. Brian's communication skills made it effortless to work with him. In particular, Brian is quick to understand things communicated to him and he is able to engage with others extremely well too. Brian was able to deliver quality results while working with a variety of different languages and tools across several different projects. Brian consistently completed his assigned projects ahead of schedule and was always looking for additional work that he could take on to increase his impact. I would strongly recommend Brian.",
+        "user": "Dylan Kristolaitis, Software Engineer at Google"
+      },{
         "text": "Within 2 weeks, Brian went from not knowing how the OAuth 2.0 Authentication System works to teaching our team how to build it into our website. He is driven and curious. He would be an asset to any team.",
         "user": "Samin Khan, CTO of Animo AI"
       },
       {
-        "text": "Working with Brian is always a pleasure. He helped me prepare for my interviews at Amazon",
+        "text": "Brian is an extremely hardworking person. He radiates an aura that motivates you and actively encourages his peers to strive for the best. Personally, Brian motivated me to apply to Amazon and he even conducted mock interviews, preparing me both technically and behaviourally. I eventually succeeded, no doubt in part to his help and motivation.",
         "user": "Jimmy Tan, Software Engineer at Amazon"
       },
       {
