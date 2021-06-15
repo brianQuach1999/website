@@ -644,7 +644,6 @@ call-to-action .button {
 /* g. Testimonials
 /* ------------------------------------------------------------------ */
 
-/**
 #testimonials {
    background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
    background-size: cover !important;
@@ -656,14 +655,13 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
-*/
-#testimonials {
+/* #testimonials {
    background: url(../images/yadu.png) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: contain;
-}
+} */
 
 #testimonials .text-container {
    padding-top: 96px;
