@@ -2,7 +2,7 @@
   "main": {
     "name": "Brian Quach",
     "occupation": "Software Engineer",
-    "description": "I enjoy building products that provide value to others.",
+    "description": "I enjoy building products that provide value to others",
     "image": "profilepic.jpg",
     "bio": "Hey I'm Brian! I am a backend engineer focused on distributed, scalable systems. I studied Computer Science at the University of Toronto.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
